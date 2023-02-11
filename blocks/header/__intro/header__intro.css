@@ -1,0 +1,15 @@
+.header__intro {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+@media screen and (max-width: 767px) {
+    .header__intro {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+}

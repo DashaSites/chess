@@ -1,0 +1,14 @@
+.illustrations__chessboard-pic-green {
+    width: 416px;
+    height: 104px;
+    align-self: flex-end;
+}
+
+
+@media screen and (max-width: 767px) {
+    .illustrations__chessboard-pic-green {
+        width: 280px;
+        height: 70px;
+        margin-top: 20px;
+    }
+}

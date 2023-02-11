@@ -1,0 +1,21 @@
+.illustrations__pattern-pic {
+    width: 440px;
+    height: 220px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .illustrations__pattern-pic {
+        left: -220px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .illustrations__pattern-pic {
+        display: none;
+    }
+}

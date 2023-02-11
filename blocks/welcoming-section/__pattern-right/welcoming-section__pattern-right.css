@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+    .welcoming-section__pattern-right {
+        width: 280px;
+    }
+}

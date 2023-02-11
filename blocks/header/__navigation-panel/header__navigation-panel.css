@@ -1,0 +1,11 @@
+.header__navigation-panel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .header__navigation-panel {
+        justify-content: space-between;
+    }
+}

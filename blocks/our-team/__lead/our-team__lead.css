@@ -1,0 +1,23 @@
+.our-team__lead {
+    width: 44.6%;
+    margin: 0;
+    margin-bottom: 110px;
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .our-team__lead {
+        width: 500px;
+        margin-bottom: 140px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .our-team__lead {
+        font-size: 12px;
+        margin-bottom: 60px;
+    }
+}

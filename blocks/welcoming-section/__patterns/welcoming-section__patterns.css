@@ -1,0 +1,21 @@
+.welcoming-section__patterns {
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .welcoming-section__patterns {
+        width: 360px;
+        height: 360px;
+        left: -190px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .welcoming-section__patterns {
+        left: 20px;
+        top: 184px;
+    }
+}

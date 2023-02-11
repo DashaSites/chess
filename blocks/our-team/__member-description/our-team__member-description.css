@@ -1,0 +1,14 @@
+.our-team__member-description {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 767px) {
+    .our-team__member-description {
+        font-size: 12px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}

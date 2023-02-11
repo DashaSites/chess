@@ -1,0 +1,17 @@
+.our-team {
+    background-color: #5036E6;
+    padding: 80px 160px;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .our-team {
+        padding: 50px 50px 100px 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .our-team {
+        padding: 20px 20px 0 20px;
+    }
+}

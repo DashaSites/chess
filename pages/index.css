@@ -1,0 +1,77 @@
+@import url(../vendors/normalize.css);
+
+@import url(../vendors/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__navigation-panel/header__navigation-panel.css);
+@import url(../blocks/header/__invitation/header__invitation.css);
+@import url(../blocks/header/__invitation-text/header__invitation-text.css);
+@import url(../blocks/header/__invitation-arrow/header__invitation-arrow.css);
+@import url(../blocks/header/__chess-piece/header__chess-piece.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__label/header__label.css);
+@import url(../blocks/header/__intro/header__intro.css);
+@import url(../blocks/header/__lead/header__lead.css);
+@import url(../blocks/header/__chessboard-pic-purple/header__chessboard-pic-purple.css);
+@import url(../blocks/header/__pattern-pic/header__pattern-pic.css);
+@import url(../blocks/header/__pattern-pic-mobile/header__pattern-pic-mobile.css);
+
+@import url(../blocks/chesspiece-pic/chesspiece-pic.css);
+@import url(../blocks/chesspiece-pic/_section/chesspiece-pic_section_header.css);
+@import url(../blocks/chesspiece-pic/_section/chesspiece-pic_section_footer.css);
+@import url(../blocks/chesspiece-pic/_section/chesspiece-pic_section_popup.css);
+
+@import url(../blocks/registration-button/registration-button.css);
+@import url(../blocks/registration-button/_length/registration-button_length_shortened.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/our-team/our-team.css);
+@import url(../blocks/our-team/__title/our-team__title.css);
+@import url(../blocks/our-team/__lead/our-team__lead.css);
+@import url(../blocks/our-team/__photo-gallery/our-team__photo-gallery.css);
+@import url(../blocks/our-team/__photo-gallery-element/our-team__photo-gallery-element.css);
+@import url(../blocks/our-team/__photo-gallery-element/_hidden/our-team__photo-gallery-element_hidden.css);
+@import url(../blocks/our-team/__member-photo/our-team__member-photo.css);
+@import url(../blocks/our-team/__member-name/our-team__member-name.css);
+@import url(../blocks/our-team/__member-description/our-team__member-description.css);
+
+@import url(../blocks/slider-buttons-container/slider-buttons-container.css);
+@import url(../blocks/slider-buttons-container/__slider-button/slider-buttons-container__slider-button.css);
+@import url(../blocks/slider-buttons-container/__slider-button/_active/slider-buttons-container__slider-button_active.css);
+
+@import url(../blocks/welcoming-section/welcoming-section.css);
+@import url(../blocks/welcoming-section/__patterns/welcoming-section__patterns.css);
+@import url(../blocks/welcoming-section/__pattern-left/welcoming-section__pattern-left.css);
+@import url(../blocks/welcoming-section/__pattern-right/welcoming-section__pattern-right.css);
+@import url(../blocks/welcoming-section/__pattern-quarter/welcoming-section__pattern-quarter.css);
+@import url(../blocks/welcoming-section/__texts/welcoming-section__texts.css);
+@import url(../blocks/welcoming-section/__title/welcoming-section__title.css);
+@import url(../blocks/welcoming-section/__lead/welcoming-section__lead.css);
+
+@import url(../blocks/illustrations/illustrations.css);
+@import url(../blocks/illustrations/__title/illustrations__title.css);
+@import url(../blocks/illustrations/__lead/illustrations__lead.css);
+@import url(../blocks/illustrations/__photo-gallery/illustrations__photo-gallery.css);
+@import url(../blocks/illustrations/__battle-photo/illustrations__battle-photo.css);
+@import url(../blocks/illustrations/__element/illustrations__element.css);
+@import url(../blocks/illustrations/__element/_hidden/illustrations__element_hidden.css);
+@import url(../blocks/illustrations/__chessboard-pic-green/illustrations__chessboard-pic-green.css);
+@import url(../blocks/illustrations/__pattern-pic/illustrations__pattern-pic.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__chess-piece/footer__chess-piece.css);
+@import url(../blocks/footer/__subscript/footer__subscript.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__form-title/popup__form-title.css);
+@import url(../blocks/popup/__form-input-item/popup__form-input-item.css);
+@import url(../blocks/registration-button/_popup/registration-button_popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+
+
+

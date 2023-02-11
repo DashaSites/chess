@@ -1,0 +1,11 @@
+.welcoming-section__pattern-quarter {
+   position: absolute;
+   bottom: 0;
+}
+
+
+@media screen and (max-width: 1279px) {
+   .welcoming-section__pattern-quarter {
+      display: none;
+   }
+}

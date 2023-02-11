@@ -1,0 +1,15 @@
+.slider-buttons-container {
+    display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    .slider-buttons-container {
+        width: 44px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-bottom: 40px;
+        margin-left: auto;
+    }
+}

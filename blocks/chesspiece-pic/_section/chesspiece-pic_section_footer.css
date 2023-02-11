@@ -1,0 +1,10 @@
+.chesspiece-pic_section_footer {
+    margin-bottom: 60px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .chesspiece-pic_section_footer {
+        margin-bottom: 40px;
+    }
+}

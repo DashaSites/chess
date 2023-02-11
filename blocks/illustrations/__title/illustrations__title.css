@@ -1,0 +1,16 @@
+.illustrations__title {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 70px;
+    line-height: 0.9;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 767px) {
+    .illustrations__title {
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+}

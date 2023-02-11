@@ -1,0 +1,14 @@
+.header__pattern-pic-mobile {
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 39px;
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .header__pattern-pic-mobile {
+        display: block;
+    }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Chess club</title>
+</head>
+<body class="page">
+
+    <header class="header">
+        <nav class="header__navigation-panel">
+            <img class="chesspiece-pic chesspiece-pic_section_header" src="./images/chess-piece.svg" alt="Шахматная фигура">
+            <div class="header__invitation">
+                <p class="header__invitation-text">Вступайте в клуб</p>
+                <img class="header__invitation-arrow" src="./images/header-arrow.svg" alt="Стрелка-указатель">
+            </div>
+            <button class="registration-button registration-button_length_shortened">Зарегистрироваться</button>
+        </nav>
+        <div class="header__intro">
+            <div class="header__label">Клуб</div>
+            <img class="header__pattern-pic-mobile" src="./images/pattern-header-mobile.svg" alt="Узор из кружочков">
+            <h1 class="header__title">Правильные шахматы</h1>
+            <p class="header__lead">Приходите к нам играть в шахматы! 
+                Сразитесь в&nbsp;классическом поединке, блиц-состязании
+                и&nbsp;бою с гройссмейстером.
+            </p>
+            <img class="header__chessboard-pic-purple" src="./images/chessboard-purple.svg" alt="Узор в виде шахматной доски">
+            <img class="header__pattern-pic" src="./images/pattern-header.svg" alt="Узор из кругов">
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="our-team">
+            <h2 class="our-team__title">Наша команда</h2>
+            <p class="our-team__lead">Лучшие шахматисты и шахматистки любители России, гроcсмейстеры, 
+            с ними играть — одно удовольствие!</p>
+            <ul class="our-team__photo-gallery">
+                <li class="our-team__photo-gallery-element">
+                    <img class="our-team__member-photo" src="./images/andrey.png" alt="Участник Андрей">
+                    <h3 class="our-team__member-name">Андрей</h3>
+                    <p class="our-team__member-description">Шахматист, писатель.</p>
+                    <div class="slider-buttons-container">
+                        <button class="slider-buttons-container__slider-button slider-buttons-container__slider-button_active"></button>
+                        <button class="slider-buttons-container__slider-button"></button>
+                        <button class="slider-buttons-container__slider-button"></button>
+                    </div>
+                </li>
+                <li class="our-team__photo-gallery-element our-team__photo-gallery-element_hidden">
+                    <img class="our-team__member-photo" src="./images/nikita.png" alt="Участник Никита">
+                    <h3 class="our-team__member-name">Никита</h3>
+                    <p class="our-team__member-description">Шахматист, кулинар.</p>
+                </li>
+                <li class="our-team__photo-gallery-element our-team__photo-gallery-element_hidden">
+                    <img class="our-team__member-photo" src="./images/alexey.png" alt="Участник Алексей">
+                    <h3 class="our-team__member-name">Алексей</h3>
+                    <p class="our-team__member-description">Шахматист, геймер.</p>
+                </li>
+            </ul>
+        </section>      
+        <section class="welcoming-section">
+            <div class="welcoming-section__patterns">
+                <img class="welcoming-section__pattern-left" src="./images/pattern-welcoming-section-left.svg" alt="Наполовину круглый узор">
+                <img class="welcoming-section__pattern-right" src="./images/pattern-welcoming-section-right.svg" alt="Круглый узор">
+                <img class="welcoming-section__pattern-quarter" src="./images/pattern-welcoming-section-quarter.svg" alt="Зеленая четверть круга">
+            </div>
+            <div class="welcoming-section__texts">
+              <h2 class="welcoming-section__title">Хочешь в&nbsp;команду?</h2>
+              <p class="welcoming-section__lead">Свяжись с нами, и мы обсудим все детали присоеденения к команде.</p>
+            </div>
+        </section>
+        <section class="illustrations">
+            <h2 class="illustrations__title">Сражения</h2>
+            <p class="illustrations__lead">Сражайтесь в парах и приятно проводите время. 
+                Если хотите прокачать свои навыки — сыграйте 
+                с нашими шахматистами.</p>
+            <ul class="illustrations__photo-gallery">
+                <li class="illustrations__element">
+                    <img class="illustrations__battle-photo" src="./images/battle-in-a-yard.png" alt="Поединок во дворе">
+                </li>
+                <li class="illustrations__element illustrations__element_hidden">
+                    <img class="illustrations__battle-photo" src="./images/battle-table.png" alt="Шахматная доска на столе">
+                </li>
+                <li class="illustrations__element illustrations__element_hidden">
+                    <img class="illustrations__battle-photo" src="./images/battle-on-sand.png" alt="Поединок на камне">
+                </li>
+            </ul>
+            <div class="slider-buttons-container">
+                <button class="slider-buttons-container__slider-button slider-buttons-container__slider-button_active"></button>
+                <button class="slider-buttons-container__slider-button"></button>
+                <button class="slider-buttons-container__slider-button"></button>
+            </div>
+            <img class="illustrations__chessboard-pic-green" src="./images/chessboard-green.svg" alt="Узор в виде шахматной доски">
+            <img class="illustrations__pattern-pic" src="./images/pattern-illustrations.svg" alt="Узор-полукруг">
+        </section>
+    </main>
+    <footer class="footer">
+        <img class="chesspiece-pic chesspiece-pic_section_footer" src="./images/chess-piece.svg" alt="Шахматная фигура">
+        <button class="registration-button">Зарегистрироваться</button>
+        <p class="footer__subscript">Шахматный клуб в Москве.</p>
+        <p class="footer__copyright">&copy; Chess Club.</p>
+    </footer>
+    <div class="popup">
+        <form class="popup__form" name="sign-up-form">
+            <img class="chesspiece-pic chesspiece-pic_section_popup" src="./images/chess-piece.svg" alt="Шахматная фигура">
+            <h2 class="popup__form-title">Регистрация</h2>
+            <input class="popup__form-input-item popup__form-input-item_type_name" type="text" name="name" placeholder="Имя">
+            <input class="popup__form-input-item popup__form-input-item_type_email" type="text" name="email" placeholder="Email">
+            <button class="registration-button registration-button_popup">Зарегистрироваться</button>
+        </form>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

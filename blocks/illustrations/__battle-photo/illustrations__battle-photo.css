@@ -1,0 +1,6 @@
+.illustrations__battle-photo {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px; 
+}
