@@ -4,8 +4,9 @@
     margin: 0;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 320px 320px 320px;
     column-gap: 80px;
+    overflow: hidden;
 }
 
 

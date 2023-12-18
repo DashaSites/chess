@@ -17,6 +17,7 @@
 
 @media screen and (max-width: 767px) {
     .our-team__lead {
+        width: 100%;
         font-size: 12px;
         margin-bottom: 60px;
     }

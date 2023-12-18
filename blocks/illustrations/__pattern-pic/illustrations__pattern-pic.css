@@ -5,7 +5,9 @@
     position: absolute;
     bottom: 0;
     left: 100px;
+    
 }
+
 
 
 @media screen and (max-width: 1279px) {
@@ -13,7 +15,6 @@
         left: -220px;
     }
 }
-
 @media screen and (max-width: 767px) {
     .illustrations__pattern-pic {
         display: none;

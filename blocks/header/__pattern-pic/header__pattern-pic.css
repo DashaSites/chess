@@ -1,11 +1,11 @@
 .header__pattern-pic {
+    
     width: 640px;
-    height: 640px;
+    height: 640px; 
     object-fit: contain;
     position: absolute;
     right: -240px;
     bottom: 50px;
-    overflow: hidden;
 }
 
 

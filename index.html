@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
     <title>Chess club</title>
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
     <header class="header">
         <nav class="header__navigation-panel">
-            <img class="chesspiece-pic chesspiece-pic_section_header" src="./images/chess-piece.svg" alt="Шахматная фигурка">
+            <img class="logo logo_section_header" src="./images/chess-piece.svg" alt="Шахматная фигурка">
             <div class="header__invitation">
-                <p class="header__invitation-text">Вступайте в клуб</p>
+                <a class="header__invitation-text" href="#">Вступайте в клуб</a>
                 <img class="header__invitation-arrow" src="./images/header-arrow.svg" alt="Стрелка-указатель">
             </div>
-            <button class="registration-button registration-button_length_shortened">Зарегистрироваться</button>
+            <button class="registration-button registration-button_length_shortened" type="button">Зарегистрироваться</button>
         </nav>
         <div class="header__intro">
-            <div class="header__label">Клуб</div>
+            <p class="header__label">Клуб</p>
             <img class="header__pattern-pic-mobile" src="./images/pattern-header-mobile.svg" alt="Узор из кружочков">
             <h1 class="header__title">Правильные шахматы</h1>
             <p class="header__lead">Приходите к нам играть в шахматы! 
@@ -40,9 +40,9 @@
                     <h3 class="our-team__member-name">Андрей</h3>
                     <p class="our-team__member-description">Шахматист, писатель.</p>
                     <div class="slider-buttons-container">
-                        <button class="slider-buttons-container__slider-button slider-buttons-container__slider-button_active"></button>
-                        <button class="slider-buttons-container__slider-button"></button>
-                        <button class="slider-buttons-container__slider-button"></button>
+                        <button class="slider-buttons-container__slider-button slider-buttons-container__slider-button_active" type="button"></button>
+                        <button class="slider-buttons-container__slider-button" type="button"></button>
+                        <button class="slider-buttons-container__slider-button" type="button"></button>
                     </div>
                 </li>
                 <li class="our-team__photo-gallery-element our-team__photo-gallery-element_hidden">
@@ -85,27 +85,27 @@
                 </li>
             </ul>
             <div class="slider-buttons-container">
-                <button class="slider-buttons-container__slider-button slider-buttons-container__slider-button_active"></button>
-                <button class="slider-buttons-container__slider-button"></button>
-                <button class="slider-buttons-container__slider-button"></button>
+                <button class="slider-buttons-container__slider-button slider-buttons-container__slider-button_active" type="button"></button>
+                <button class="slider-buttons-container__slider-button" type="button"></button>
+                <button class="slider-buttons-container__slider-button" type="button"></button>
             </div>
             <img class="illustrations__chessboard-pic-green" src="./images/chessboard-green.svg" alt="Узор в виде шахматной доски">
             <img class="illustrations__pattern-pic" src="./images/pattern-illustrations.svg" alt="Узор-полукруг">
         </section>
     </main>
     <footer class="footer">
-        <img class="chesspiece-pic chesspiece-pic_section_footer" src="./images/chess-piece.svg" alt="Шахматная фигура">
-        <button class="registration-button">Зарегистрироваться</button>
+        <img class="logo logo_section_footer" src="./images/chess-piece.svg" alt="Шахматная фигура">
+        <button class="registration-button" type="button">Зарегистрироваться</button>
         <p class="footer__subscript">Шахматный клуб в Москве.</p>
         <p class="footer__copyright">&copy; Chess Club.</p>
     </footer>
     <div class="popup">
         <form class="popup__form" name="sign-up-form">
-            <img class="chesspiece-pic chesspiece-pic_section_popup" src="./images/chess-piece.svg" alt="Шахматная фигура">
+            <img class="logo logo_section_popup" src="./images/chess-piece.svg" alt="Шахматная фигура">
             <h2 class="popup__form-title">Регистрация</h2>
             <input class="popup__form-input-item popup__form-input-item_type_name" type="text" name="name" placeholder="Имя">
             <input class="popup__form-input-item popup__form-input-item_type_email" type="text" name="email" placeholder="Email">
-            <button class="registration-button registration-button_popup">Зарегистрироваться</button>
+            <button class="registration-button registration-button_popup" type="button">Зарегистрироваться</button>
         </form>
     </div>
     <script src="./scripts/script.js"></script>

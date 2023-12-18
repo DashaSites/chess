@@ -10,5 +10,6 @@
 @media screen and (max-width: 767px) {
     .header__pattern-pic-mobile {
         display: block;
+        right: 20px;
     }
 }

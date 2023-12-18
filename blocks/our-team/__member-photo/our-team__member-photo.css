@@ -7,6 +7,12 @@
 }
 
 
+@media screen and (max-width: 1279px) {
+    .our-team__member-photo {
+        margin-bottom: 25px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .our-team__member-photo {
         margin-bottom: 20px;

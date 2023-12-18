@@ -1,6 +1,6 @@
 .slider-buttons-container__slider-button {
     width: 8px;
-    height: 8px;
+    min-height: 8px;
     border: none;
     padding: 0;
     border-radius: 50%;

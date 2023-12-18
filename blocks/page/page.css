@@ -1,5 +1,6 @@
 .page {
-    width: 100%;
+    width: 1440px;
+    margin: 0 auto; 
     font-family: 'Noto Sans', Arial, sans-serif;
     font-style: normal;
     font-size: 20px;
@@ -12,4 +13,11 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .page {
+        max-width: 100%;
+    }
 }

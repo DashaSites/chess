@@ -17,6 +17,7 @@
 
 @media screen and (max-width: 767px) {
     .illustrations__lead {
+        width: 100%;
         font-size: 12px;
         margin-bottom: 60px;
     }

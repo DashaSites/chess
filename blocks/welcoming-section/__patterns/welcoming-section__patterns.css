@@ -9,13 +9,13 @@
     .welcoming-section__patterns {
         width: 360px;
         height: 360px;
-        left: -190px;
+        left: -180px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .welcoming-section__patterns {
         left: 20px;
-        top: 184px;
+        top: 160px;
     }
 }
