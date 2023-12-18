@@ -1,8 +1,7 @@
 # Chess Club. Front page
 
-https://dashasites.github.io/chess/
-
 Adaptive cross-browser user-friendly webside
+https://dashasites.github.io/chess/
 
 
 ## Used technologies
