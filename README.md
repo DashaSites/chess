@@ -1,7 +1,9 @@
-# Chess. Главная страница клуба шахматистов
+# Chess Club. Front page
 
-Адаптивный сайт с удобным интерфейсом на разных экранах, включая мобильные
+# https://dashasites.github.io/chess/
 
-## Использованные технологии
-HTML5, CSS3 и JavaScript. Дизайн резиновый и адаптивный с элементами интерактива (кнопки меняются при ховере). Сайт сверстан на сетках **Flex** и **Grid**.
-Файлы сгруппированы, стили описаны по методологии **БЭМ** (nested). По клику по кнопке регистрации плавно открывается попап с формой, заполнив которую, пользователь может вступить в клуб шахматистов.
+Adaptive cross-browser user-friendly webside
+
+
+## Used technologies
+HTML5, CSS3 (Flex, Grid) and JavaScript. Adaptive design with interactive elements (buttons changing while hovering, popup with form).
