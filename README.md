@@ -1,8 +1,10 @@
-# Chess Club. Front page
+### Chess Club. Registration page
 
-https://dashasites.github.io/chess/
+A responsive landing page with an interactive registration form and smooth popup animation.
 
-Adaptive cross-browser user-friendly webside
+🔗 Live demo: https://dashasites.github.io/chess/
 
-## Used technologies
-HTML5, CSS3 (Flex, Grid) and JavaScript. Adaptive design with interactive elements (buttons changing while hovering, popup with form).
+#### Technologies
+- HTML
+- CSS
+- JavaScript
