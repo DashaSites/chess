@@ -8,3 +8,4 @@ A responsive landing page with an interactive registration form and smooth popup
 - HTML
 - CSS
 - JavaScript
+- Figma
